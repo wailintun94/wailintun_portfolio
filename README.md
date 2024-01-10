@@ -1,16 +1,32 @@
-### Hi there 👋
+Hello! Welcome to IvanJaegar404.
 
-<!--
-**IvanJaegar404/ivanjaegar404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[About Me]
+My real name is Wai Lin Tun (ဝေ‌လင်းထွန်း).
+I am very interested in software development. 
+I am an entry level programmer. 
 
-Here are some ideas to get you started:
+[Humang Languages]
+My native language is 'Burmese'.
+My secondary language is 'English', and I can speak quite fluently.
+My thrid language is 'Japanese'. I am still working on it. I've passed N4.
+I plan to learn Germany or Chinese in the future. 
+I love learning new languages.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Software Languages]
+- Java
+- C#
+- Flutter
+- Python
+- React Native
+- HTML
+- CSS
+- Javascript
+- PHP
+Currently, these are all I know.
+My love for learning new languages doesn't stop in Human Languages.
+
+[Hobbies]
+For outdoor activies, I like walking and running.
+For sports, I love swimming. I swim around 3 - 4 times a month.
+For the indoor part, I like to watch anime and play games.
+Sometimes, I like to read. I mostly read motivational books, but I also read paranomal or supernatural kind of stuffs.
