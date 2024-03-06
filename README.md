@@ -1,18 +1,18 @@
 👋 Hello! Welcome to IvanJaegar404.
 
 [About Me] 🙋‍♂️
-- My real name is Wai Lin Tun (ဝေ‌လင်းထွန်း).
+- My real name is <b>Wai Lin Tun</b> (ဝေ‌လင်းထွန်း).
 - I am very interested in software development. 
 - I am an entry level programmer. 
 
-[Humang Languages] 💬
+[Human Languages] 💬
 - My native language is 'Burmese'.
 - My secondary language is 'English', and I can speak quite fluently.
 - My thrid language is 'Japanese'. I am still working on it. I've passed N4.
 - I plan to learn Germany or Chinese in the future. 
 - I love learning new languages.
 
-[Software Languages] 💻
+[Programming Languages] 💻
 - Java
 - C#
 - Flutter
