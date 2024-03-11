@@ -1,0 +1,21 @@
+:root {
+    --secondary-color: #7c8799;
+    --primary-color: #32324e;
+    --bg-color: #eeeee7;
+    --accent-color: #4894e8;
+}
+body {
+    padding: 100px;
+    background-color: var(--bg-color);
+}
+.introduction {
+    color: var(--primary-color);
+    border-color: var(--accent-color);
+}
+.title {
+    color: var(--accent-color);
+    font-size: 10rem;
+}
+.sub-title {
+    font-size: 1.2rem;
+}
