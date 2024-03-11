@@ -30,3 +30,4 @@ My love for learning new languages doesn't stop in Human Languages.
 - For sports, I love swimming. I swim around 3 - 4 times a month.
 - For the indoor part, I like to watch anime and play games.
 - I also like to read. I mostly read motivational books, but I also read paranomal or supernatural kind of stuffs.
+- I love travelling. I plan to add a travel blog to my portfolio in the future.
