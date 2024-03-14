@@ -1,21 +1,89 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 :root {
-    --secondary-color: #7c8799;
-    --primary-color: #32324e;
-    --bg-color: #eeeee7;
-    --accent-color: #4894e8;
+  --bg-color: #0c0a11;
+  --primary-color: #5c6be5;
+  --secondary-color: #d4d3e9;
+  --accent-color: #322b51;
+  --action-color: #4c343c;
+  --support-color: #f8b62c;
 }
 body {
-    padding: 100px;
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  letter-spacing: 0.2rem;
 }
-.introduction {
-    color: var(--primary-color);
-    border-color: var(--accent-color);
+/* One for all */
+.emphasis {
+  color: var(--support-color);
 }
 .title {
-    color: var(--accent-color);
-    font-size: 10rem;
+  color: var(--primary-color);
+  margin: 10px auto;
 }
 .sub-title {
-    font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin: 10px auto;
+}
+.title-underline {
+  height: 2px;
+  width: 150px;
+  background-color: var(--support-color);
+  margin: 10px auto;
+}
+.button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--support-color);
+}
+.border {
+  border-color: var(--support-color);
+}
+/* Introduction */
+#introduction {
+  color: var(--secondary-color);
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+#introduction .bg-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -2;
+  opacity: 50%;
+}
+#introduction .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  background: var(--bg-color);
+  mix-blend-mode: overlay;
+}
+#introduction .avatar {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/* About Me */
+#about {
+  color: var(--secondary-color);
+  min-height: 700px;
+  width: 100%;
+  font-size: 1.2rem;
 }
