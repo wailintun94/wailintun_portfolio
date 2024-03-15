@@ -22,6 +22,7 @@
 - CSS
 - Javascript
 - PHP
+- Laravel
 - Currently, these are all I know.
 My love for learning new languages doesn't stop in Human Languages.
 
