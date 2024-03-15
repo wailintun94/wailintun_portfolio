@@ -7,18 +7,20 @@
     <title>Wai Lin's Space</title>
     <link rel="icon" type="image/x-icon" href="resources/avatar.jpg">
     <style>
+        /* Bootstrap */
         @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
         @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-        @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js");
+        /* Google Font */
         @import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
         @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+        /* Custom CSS */
         @import url("app.css");
     </style>
 </head>
 
 <body>
     <!-- Introduction -->
-    <div id="introduction" class="p-5">
+    <header id="introduction" class="p-5">
         <img src="resources/bg-img.jpg" class="bg-img" alt="">
         <div class="overlay"></div>
         <div class="container mx-auto">
@@ -29,7 +31,7 @@
             </div>
             <div class="container pb-5 text-center">
                 <div class="container py-5">
-                    <h1>Hello, I am Wai Lin.</h1>
+                    <h1>Hello, I am Wai Lin Tun.</h1>
                 </div>
                 <div class="container">
                     <h3>I am a <span class="emphasis">super duper professional </span><span class="title">full-stack
@@ -40,64 +42,114 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- About Me -->
-    <div id="about" class="container">
-        <div class="container text-center">
-            <div class="container py-5">
-                <h1 class="title text-uppercase">About Me</h1>
-                <div class="title-underline"></div>
+    </header>
+    <div id="content">
+        <!-- <div class="sidebar">
+            <h3>Sticky sidebar</h3>
+            <p>I will follow you!</p>
+            <p><a href="https://caniuse.com/#search=sticky">caniuse stats</a>
+        </div> -->
+        <!-- About Me -->
+        <div id="about" class="container">
+            <div class="container text-center">
+                <div class="container py-5">
+                    <h1 class="title text-uppercase">About Me</h1>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="container">
+                    <p> I am a professional web developer who specializes in beautiful, simple and minimal designs. </p>
+                    <p> Web development is not the only thing I can do.</p>
+                    <p> I can also develop mobile apps too. </p>
+                </div>
+                <div class="container py-2">
+                    <h3 class="sub-title">Skills</h3>
+                    <div class="title-underline"></div>
+                    <div class="container-fluid d-flex flex-row row p-2">
+                        <div class="container col">
+                            <h5>Web development</h5>
+                            <ul class="text-start">
+                                <li><i class="bi bi-caret-right"></i> HTML</li>
+                                <li><i class="bi bi-caret-right"></i> CSS</li>
+                                <li><i class="bi bi-caret-right"></i> PHP</li>
+                                <li><i class="bi bi-caret-right"></i> Javascript</li>
+                            </ul>
+                        </div>
+                        <div class="container col">
+                            <h5>Frameworks</h5>
+                            <ul class="text-start">
+                                <li><i class="bi bi-caret-right"></i> Bootstrap</li>
+                                <li><i class="bi bi-caret-right"></i> Laravel</li>
+                                <li><i class="bi bi-caret-right"></i> Tailwind</li>
+                                <li><i class="bi bi-caret-right"></i> React Native</li>
+                            </ul>
+                        </div>
+                        <div class="container col">
+                            <h5>Generic Languages</h5>
+                            <ul class="text-start">
+                                <li><i class="bi bi-caret-right"></i> C#</li>
+                                <li><i class="bi bi-caret-right"></i> Java</li>
+                                <li><i class="bi bi-caret-right"></i> Dart / Flutter</li>
+                                <li><i class="bi bi-caret-right"></i> Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <p> I am currently working on to expand my knowledge on software development </p>
+                    <p> I also put my hands on AI development from time to time as I am interested in AI and robotics
+                    </p>
+                </div>
             </div>
+        </div>
+        <!-- Experiences -->
+        <div id="experiences" class="container">
             <div class="container">
-                <p> I am a professional web developer who specializes in beautiful, simple and minimal designs. </p>
-                <p> Web development is not the only thing I can do.</p>
-                <p> I can also develop mobile apps too. </p>
-            </div>
-            <div class="container py-2">
-                <h3 class="sub-title">Skills</h3>
-                <div class="title-underline"></div>
-                <div class="container-fluid d-flex flex-row row p-2">
-                    <div class="container col">
-                        <h5>Web development</h5>
-                        <ul class="text-start">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>PHP</li>
-                            <li>Javascript</li>
-                        </ul>
-                    </div>
-                    <div class="container col">
-                        <h5>Frameworks</h5>
-                        <ul class="text-start">
-                            <li>Bootstrap</li>
-                            <li>Laravel</li>
-                            <li>Tailwind</li>
-                            <li>React Native</li>
-                        </ul>
-                    </div>
-                    <div class="container col">
-                        <h5>Generic Languages</h5>
-                        <ul class="text-start">
-                            <li>C#</li>
-                            <li>Java</li>
-                            <li>Dart / Flutter</li>
-                            <li>Python</li>
-                        </ul>
+                <div class="container py-5  text-center">
+                    <h1 class="title text-uppercase">Experiences</h1>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="accordion accordion-flush mb-2 shadow-sm" id="accordionFlushExample">
+                    <div class="accordion-container rounded-2 mb-2">
+                        <div class="accordion-item border border-0  ">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <span class="emphasis me-auto">Internship @Softcomm</span>
+                                    <span class="emphasis">2023</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>It was a 5-weeks internship where I learned of real-world web-development job
+                                        works. I had to test new website prior to release. I also had to develop a blog system
+                                        for KMD too.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Experiences -->
-    <div id="experiences" class="container">
+    <!-- Footer -->
+    <footer id="footer" class="footer py-5">
         <div class="container text-center">
-            <div class="container py-5">
-                <h1 class="title text-uppercase">Experiences</h1>
-                <div class="title-underline"></div>
+            <h5>Designed and Built by <span class="emphasis">Wai Lin Tun</span></h5>
+            <div class="d-flex justify-content-center gy-3">
+                <a href="https://github.com/IvanJaegar404" class="btn"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/wailin-tun-a1368b19b/" class="btn"><i class="bi bi-linkedin"></i></a>
             </div>
-            <div class="container"></div>
+            &copy; Wai Lin Tun 2024
         </div>
+    </footer>
     </div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
