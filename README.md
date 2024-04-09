@@ -22,7 +22,9 @@
 - CSS
 - Javascript
 - PHP
-- Laravel
+- Bootstrap
+- Laravel (Breeze, Jetstream, Livewire, Filament)
+- Tailwind CSS
 - Currently, these are all I know.
 My love for learning new languages doesn't stop in Human Languages.
 
