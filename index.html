@@ -22,6 +22,9 @@
     <!-- Introduction -->
     <header id="introduction" class="pt-5 panel">
         <img src="resources/bg-img.jpg" class="bg-img" alt="">
+        <div class="circle-container">
+            <div class="circle"></div>
+        </div>
         <div class="overlay"></div>
         <div class="row">
             <div class="col">
@@ -40,42 +43,21 @@
                     <div class="container pt-5">
                         <button class="btn button"> Contact Me </button>
                     </div>
+                    <div class="container pt-5">
+                        <button class="btn button" onclick="/blog-app/public/blog"> My Blog </button>
+                    </div>
                 </div>
             </div>
             <div class="col">
                 <div class="avatar-container">
                     <img src="resources/avatar.png" class="img-fluid avatar" alt=""
-                    style="object-fit: cover; height: 500px;">
+                        style="object-fit: cover; height: 500px;">
                     <div class="avatar-bar"></div>
                 </div>
             </div>
         </div>
-        <!-- <div class="container">
-            <div class="container py-4">
-                <div class="border border-5 rounded-circle mx-auto" style="width: 250px; height: 250px;">
-                    <img src="resources/avatar.jpg" class="avatar img-fluid" alt="">
-                </div>
-            </div>
-            <div class="container pb-5 text-center">
-                <div class="container py-5">
-                    <h1>Hello, I am Wai Lin Tun.</h1>
-                </div>
-                <div class="container">
-                    <h3>I am a <span class="emphasis">super duper professional </span><span class="title">full-stack
-                            web-developer.</span></h3>
-                </div>
-                <div class="container my-5">
-                    <button class="btn button"> Contact Me </button>
-                </div>
-            </div>
-        </div> -->
     </header>
     <main id="content" class="pt-5">
-        <!-- <div class="sidebar">
-            <h3>Sticky sidebar</h3>
-            <p>I will follow you!</p>
-            <p><a href="https://caniuse.com/#search=sticky">caniuse stats</a>
-        </div> -->
         <!-- About Me -->
         <div id="about" class="container">
             <div class="container text-center">
@@ -85,18 +67,22 @@
                         <div class="title-underline"></div>
                     </div>
                     <div class="container">
-                        <p> I am a professional web developer who specializes in beautiful, simple and minimal designs.
-                        </p>
+                        <p> I am a junior web developer who specializes in beautiful, simple and minimal designs. </p>
                         <p> Web development is not the only thing I can do.</p>
-                        <p> I can also develop mobile apps too. </p>
+                        <p> I can also do web apps as well as mobile apps too. </p>
+                    </div>
+                    <div class="container py-4">
+                        <h3> What I am doing now! </h3>
+                        <div class="title-underline"></div>
+                        <p> I am currently working on personal projects to imporve my skills and my working fields.</p>
+                        <p> I am trying to do more than web-development. </p>
                     </div>
                 </div>
                 <div class="container panel">
-                    <h3 class="sub-title">Skills</h3>
+                    <h3 class="sub-title">What I can do!</h3>
                     <div class="title-underline"></div>
                     <div class="container-fluid d-flex flex-row row p-2">
                         <div class="container col">
-                            <h5>Web development</h5>
                             <ul class="text-start">
                                 <li><i class="bi bi-caret-right"></i> HTML</li>
                                 <li><i class="bi bi-caret-right"></i> CSS</li>
@@ -105,7 +91,6 @@
                             </ul>
                         </div>
                         <div class="container col">
-                            <h5>Frameworks</h5>
                             <ul class="text-start">
                                 <li><i class="bi bi-caret-right"></i> Bootstrap</li>
                                 <li><i class="bi bi-caret-right"></i> Laravel</li>
@@ -114,7 +99,6 @@
                             </ul>
                         </div>
                         <div class="container col">
-                            <h5>Generic Languages</h5>
                             <ul class="text-start">
                                 <li><i class="bi bi-caret-right"></i> C#</li>
                                 <li><i class="bi bi-caret-right"></i> Java</li>
@@ -125,8 +109,7 @@
                     </div>
                     <div class="container">
                         <p> I am currently working on to expand my knowledge on software development </p>
-                        <p> I also put my hands on AI development from time to time as I am interested in AI and robotics
-                        </p>
+                        <p> I love learning new things and trying them out. </p>
                     </div>
                 </div>
             </div>
@@ -181,6 +164,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
